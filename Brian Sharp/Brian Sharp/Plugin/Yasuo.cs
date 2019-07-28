@@ -1,17 +1,15 @@
 ﻿namespace BrianSharp.Plugin
 {
+    using EnsoulSharp;
+    using EnsoulSharp.SDK;
+    using EnsoulSharp.SDK.MenuUI;
+    using EnsoulSharp.SDK.MenuUI.Values;
+    using EnsoulSharp.SDK.Prediction;
     using System;
     using System.Collections.Generic;
     using System.Linq;
-    using System.Text.RegularExpressions;
-
-    using BrianSharp.Common;
-    using BrianSharp.Evade;
-
-    using LeagueSharp;
-    using LeagueSharp.Common;
-
-    using SharpDX;
+    using System.Text;
+    using System.Threading.Tasks;
 
     using Color = System.Drawing.Color;
     using Orbwalk = BrianSharp.Common.Orbwalker;
