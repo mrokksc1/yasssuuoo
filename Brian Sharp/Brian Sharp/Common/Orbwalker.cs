@@ -1,13 +1,12 @@
-﻿namespace BrianSharp.Common
-{
     using System;
     using System.Linq;
+    using System.Windows.Forms;
 
-    using LeagueSharp;
-    using LeagueSharp.Common;
-
-    using SharpDX;
-
+    using EnsoulSharp;
+    using EnsoulSharp.SDK;
+    using EnsoulSharp.SDK.MenuUI.Values;
+    using EnsoulSharp.SDK.Prediction;
+    using EnsoulSharp.SDK.Utility;
     using Color = System.Drawing.Color;
 
     internal class Orbwalker
