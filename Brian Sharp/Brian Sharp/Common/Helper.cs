@@ -1,13 +1,15 @@
 ﻿namespace BrianSharp.Common
 {
-    using System.Collections.Generic;
-    using System.Linq;
-
-    using LeagueSharp;
-    using LeagueSharp.Common;
-    using LeagueSharp.Common.Data;
-
-    using SharpDX;
+using EnsoulSharp;
+using EnsoulSharp.SDK;
+using EnsoulSharp.SDK.MenuUI;
+using EnsoulSharp.SDK.MenuUI.Values;
+using EnsoulSharp.SDK.Prediction;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
     internal class Helper : Program
     {
